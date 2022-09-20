@@ -23,7 +23,7 @@ a {
     cursor: pointer;
 }
 
-.top-section {
+.first-section {
     background-color: black;
     color: #fff;
 }
@@ -34,7 +34,10 @@ nav, header {
     gap: 10px;
 }
 
-nav > img { 
+/* nav > img {  */
+.logo-text {
+    font-size: 1.4rem;
+    font-weight: bold;
     width: 30% !important;
     max-width: 30% !important;
 }
@@ -44,21 +47,58 @@ nav > img {
     justify-content: flex-end;
     width: 68% !important;
     max-width: 68% !important;
+    padding: 7px;
+}
+
+.nav-right a {
+    font-size: 0.9rem;
 }
 
 .nav-right a:not(:last-child) {
     margin-right: 15px;
 }
 
-img.header-img {
+/* img.header-img {
     width: 100%;
     height: 95%;
     border: 1px solid #fff;
     padding: 50px;
+} */
+
+.header-img-p {
+    border: 1px solid #fff;
+    padding: 50px;
+    height: 75%;
+    width: 100%;
+    align-self: center;
+    justify-self: center;
+    font-size: 13px;
 }
 
-.mid-section {
+header h2 {
+    /* font-size: 48px; */
+    font-size: 38px;
+    color: #F9FAF8;
+    font-weight: extra-bold;
+}
+
+header p {
+    font-size: 15px;
+    color: #E5E7EB;
+}
+
+header a {
+    background-color: #3882F6;
+}
+
+.second-section {
     padding: 50px;
+}
+
+.second-section h3 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: extra-bold;
 }
 
 .flex-container {
@@ -76,13 +116,22 @@ img.header-img {
     height: 200px;
 }
 
-.last-section {
+.third-section {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 30px;
-    background-color: rgb(244, 239, 239);
+    /* background-color: rgb(244, 239, 239); */
+    background-color: #E5E7EB;
+}
+
+.p-1, .p-2 {
+    /* font-size: 36px; */
+    font-size: 18px;
+    font-style: italic;
+    font-weight: light;
+    color: #1F2937;
 }
 
 .p-1 {
@@ -91,14 +140,38 @@ img.header-img {
 
 .p-2 {
     float: right;
-    font-weight: 600;
+    /* font-weight: 600; */
     align-self: flex-end;
     width: 45%;
 }
 
+.fourth-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
 .action-card {
-    padding: 45px;
+    padding: 25px;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: royalblue;
+    color: #fff;
+    width: 75%;
+}
+
+footer {
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #fff;
+}
+
+footer p {
+    margin-bottom: 0 !important;
+    font-size: 12px;
 }
