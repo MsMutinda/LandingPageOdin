@@ -1,3 +1,5 @@
 #Landing Page
 
-Odin project exercise
+###Odin project exercise
+
+personal focus on flexbox
